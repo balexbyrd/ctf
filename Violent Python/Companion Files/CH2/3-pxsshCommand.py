@@ -18,6 +18,8 @@ def connect(host, user, password):
         print '[-] Error Connecting'
         exit(0)
 
-s = connect('127.0.0.1', 'root', 'toor')
+
+#s = connect('127.0.0.1', 'root', 'toor')
+s = connect('sdf.org', 'lawmicha', 'compsex')
 send_command(s, 'cat /etc/shadow | grep root')
 
